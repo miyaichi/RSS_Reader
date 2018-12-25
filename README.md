@@ -13,7 +13,7 @@ Data¥Condig.xlsxで以下の設定ができます。
 Settingタブ
 
 | Name                     | Default                                 | Description                                                                       |
-|:------------------------ |:--------------------------------------- |:--------------------------------------------------------------------------------- |
+|:-------------------------|:----------------------------------------|:----------------------------------------------------------------------------------|
 | logF_BusinessProcessName | RSS_Reader                              | ワークフローの名称（ログに出力されます）                                          |
 | RSS_Feed_URL             | https://news.yahoo.co.jp/pickup/rss.xml | RSS_フィードのURL                                                                 |
 | Alexa_Process            | -                                       | Speech:(Pollyで読み上げる),Reminder:(リマインダー登録する)                        |
@@ -41,3 +41,7 @@ AWS CLIをインストールし、AWS Pollyを利用できるようにしたIAM�
     ]
 }
 ```
+
+## MP3 Readerの設定
+
+AWS Pollyで作成した音声ファイルを読み上げるのに、Command Line MP3 Player for Windows ( https://lawlessguy.wordpress.com/2015/06/27/update-to-a-command-line-mp3-player-for-windows/ )を利用しています。利用にあたっては、同ソフトウェアのライセンス（MIT)を確認の上、実行形式をSpeechフォルダにコピーしてください。
