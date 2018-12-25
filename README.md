@@ -1,6 +1,6 @@
 # RSS_Reader
 
-RSSフィードのタイトルをAlexa Pollyで読み上げます/Alexaにリマインダー登録するUiPathワークフロー
+RSSフィードのタイトルをAlexa Pollyで読み上げる/Alexaにリマインダー登録するUiPathワークフロー
 
 ## 内容
 
